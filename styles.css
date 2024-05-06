@@ -46,6 +46,7 @@ header button{
     align-items: center;
 }
 
+
 .apresentacao article{
     width: 50%;
     height: 60%;
@@ -189,9 +190,9 @@ color: rgb(33, 60, 121);
 }
 
 .foto .fundo{
-    width: 400px;
+    width: 400px; 
     height: 400px; 
-    display: flex;
+    display:flex;
     align-items: flex-end;
     background-color: rgb(235, 235, 235);
     box-shadow: 0 0 2em rgb(113, 176, 201);
@@ -199,8 +200,93 @@ color: rgb(33, 60, 121);
 }
 
 .foto .fundo img{
-    width: 92%;
-    margin-left: 2px;
+    
+    height:100%;
+    width: 95%;
+    border-radius:13em;
+    }
+
+    .contato{
+        background-color: rgb(184, 197, 255);
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+       
+     
+    }
+    .contato article h1{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(23, 31, 143);
+        font-size: larger;
+        
+        
+        
     }
 
 
+    .contato article p{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:larger;
+        color: #20186d;
+    }
+
+    .botao{
+       
+        
+        width: 22%; 
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+     
+    .botao a{
+        
+        width: 35%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-left: 25px;
+        padding: 15px;
+        background-color: #7c46b9;
+        border: 0;
+        color: aliceblue;
+        border-radius: 15px;
+        box-shadow: 0 0 0.7em rgb(55, 45, 185);    
+    
+    }
+
+    .contato form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .contato input{
+         width: 65%;
+         border: 1px rgb(44, 0, 202) solid;
+         background-color: rgba(115, 113, 243, 0.664);
+         color: white;
+         height: 30px;
+         padding: 5px;
+         font-size: 1.2em;
+         border-radius: 5px;
+         margin-top: 1vh;
+         margin-bottom: 1vh;
+         transition-duration: 0.5s;
+
+    }
+
+    .contato a:hover{
+        background-color: rgb(55, 42, 173);
+        transition-duration: 0.5s;
+    }
+
+    ::placeholder{
+        color: rgb(197, 245, 245) solid;
+    }
+
+    
